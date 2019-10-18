@@ -1,23 +1,35 @@
+#bodyFull {background-color: rgb(238, 245, 246);}
 #leftside {
     float: left;
     width:400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 #maincontainer {
     width:960px;
     margin:10px auto;
 }
 #header {
-    background: #fff;
+    background: rgb(238, 245, 246);
     width: 100%;
-    height: 76px;
+    height: 125px;
     position: relative;
     top: 0;
     left: 0;
     border-bottom: 4px solid rgb(204, 101, 27);
 }
+#name {
+    position: absolute;
+    font-size: 1.5cm;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 0;
+    left: 0;
+}
+
+
 #centercontent {
     float:right;
     width:500px;
+    font-family: 'Courier New', Courier, monospace;
 }
 body {
     background:  #fff;
@@ -26,4 +38,22 @@ body {
 }
 div {
     display: block;
+}
+nav{
+    float: right;
+    padding: 20px;
+}
+ul.nav {
+    list-style: none;
+}
+
+li.nav {
+    display: inline-block;
+    float: left;
+    padding: 10px
+}
+a.nav {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(204, 101, 27);
 }
