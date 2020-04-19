@@ -1,1 +1,0 @@
-# shiponcs.github.io
