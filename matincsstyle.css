@@ -1,59 +1,69 @@
-#bodyFull {background-color: rgb(238, 245, 246);}
+#bodyFull {
+  background-color: rgb(238, 245, 246);
+}
 #leftside {
-    float: left;
-    width:400px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  float: left;
+  width: 400px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #maincontainer {
-    width:960px;
-    margin:10px auto;
+  width: 960px;
+  margin: 10px auto;
 }
 #header {
-    background: rgb(238, 245, 246);
-    width: 100%;
-    height: 125px;
-    position: relative;
-    top: 0;
-    left: 0;
-    border-bottom: 4px solid rgb(204, 101, 27);
+  background: rgb(238, 245, 246);
+  width: 100%;
+  height: 125px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border-bottom: 4px solid rgb(204, 101, 27);
 }
 #name {
-    position: absolute;
-    font-size: 1.5cm;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    top: 0;
-    left: 0;
+  position: absolute;
+  font-size: 1.5cm;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  top: 0;
+  left: 0;
 }
-
 
 #centercontent {
-    float:right;
-    width:500px;
-    font-family: 'Courier New', Courier, monospace;
+  float: right;
+  width: 500px;
+  font-family: "Courier New", Courier, monospace;
 }
 body {
-    background:  #fff;
-    padding:     0 0 20px 0;
-    font-family: 'Crimson Text', serif;
+  background: #fff;
+  padding: 0 0 20px 0;
+  font-family: "Crimson Text", serif;
 }
 div {
-    display: block;
+  display: block;
 }
-nav{
-    float: right;
-    padding: 20px;
+.social-link {
+  padding: 0 7px;
+  color: peru;
+}
+img {
+  position: absolute;
+  clip: rect(25px, 400px, 350px, 8px);
+  border-radius: 0%;
+}
+nav {
+  float: right;
+  padding: 20px;
 }
 ul.nav {
-    list-style: none;
+  list-style: none;
 }
 
 li.nav {
-    display: inline-block;
-    float: left;
-    padding: 10px
+  display: inline-block;
+  float: left;
+  padding: 10px;
 }
 a.nav {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(204, 101, 27);
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(204, 101, 27);
 }
